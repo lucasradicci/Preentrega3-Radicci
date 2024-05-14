@@ -1,3 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 
+header {
+  background-color: black;
+  padding: 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+}
+
+.barra {
+  float: right;
+  background-color: black;
+}
+
+ol li {
+  display: inline-block;
+}
+
+li a {
+  color: #f38a8a;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: blue;
+}
+
+main {
+  background-color: beige;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.icono-texto {
+  background-color: black;
+  display: flex;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.icono-texto a {
+  text-decoration: none;
+  color: red;
+}
+
+.texto1, .texto2, .texto3 {
+  display: flex;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.redes a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.redes a:hover {
+  color: blueviolet;
+}
 
 /*# sourceMappingURL=estilos.css.map */
