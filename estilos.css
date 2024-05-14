@@ -15,27 +15,31 @@ header {
   font-size: 20px;
 }
 
-.barra {
+nav.barra {
   float: right;
   background-color: black;
 }
 
-ol li {
-  display: inline-block;
+ul li {
+  color: #f38a8a;
 }
 
-li a {
+.nav-item {
+  margin-left: 5px;
   color: #f38a8a;
   font-size: 20px;
-  text-decoration: none;
 }
 
-li a:hover {
+.nav-item:hover {
   color: blue;
 }
 
 main {
   background-color: beige;
+}
+
+.imagen {
+  margin: auto;
 }
 
 footer {
@@ -71,7 +75,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .redes a {

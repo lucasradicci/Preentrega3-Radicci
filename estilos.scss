@@ -1,4 +1,6 @@
 $color-letras: #f38a8a;
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,27 +16,34 @@ header{
     color: white;
     font-size: 20px;
 }
-.barra{
+nav.barra{
     float: right;
     background-color: black;
    
 }
-ol li{
-    display: inline-block;
+ul li{
+   color: #f38a8a;
     
 }
-li a{
+.nav-item{
+    margin-left: 5px;
     color: $color-letras;
     font-size: 20px;
-    text-decoration: none;
+    
     
 }
-li a:hover{
+.nav-item:hover{
     color: blue;
     
 }
 main{
-    background-color: beige ;
+    background-color: beige;
+    
+}
+.imagen{
+    margin: auto;
+   
+  
 }
 footer{
     background-color: black;
@@ -65,7 +74,7 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
     
 }
  .redes a{
@@ -78,4 +87,6 @@ footer p{
 .redes a:hover{
     color: blueviolet;
 }
+
+
 
