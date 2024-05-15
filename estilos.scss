@@ -3,7 +3,7 @@ $color-letras-nosotros: rgb(197, 69, 69);
 $color-boton: rgb(132, 132, 230);
 $color-fondo-productos: rgb(89, 89, 192);
 $color-fondo-contacto: rgb(230, 174, 71);
-
+$color-letras-negro: rgb(70, 66, 66);
 
 *{
     margin: 0;
@@ -42,6 +42,11 @@ ul li{
 }
 main{
     background-color: beige;
+    margin: 0;
+    padding: 0;
+    
+    
+   
     
 }
 
@@ -93,12 +98,60 @@ main h1{
 .btn{
     background-color: $color-boton;
 }
-h2{
+main h2{
     text-align: center;
     color: $color-fondo-productos;
 }
-h3{
-    color: $color-fondo-contactopara;
+main h3{
+    color: $color-fondo-contacto;
+}
+.services h2{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    
+}
+.service1 h3{
+    font-size: 25px;
+}
+.service1 p{
+    color: $color-letras-negro;
+    font-size: 20px;
+}
+.service2 h3{
+    font-size: 25px;
+}
+.service2 p{
+    color: $color-letras-negro;
+    font-size: 20px;
+}
+.service3 h3{
+    font-size: 25px;
+}
+.service3 p{
+    color: $color-letras-negro;
+    font-size: 20px;
+}
+.service4 h3{
+    font-size: 25px;
+}
+.service4 p{
+    color: $color-letras-negro;
+    font-size: 20px;
+}
+.service5 h3{
+    font-size: 25px;
+}
+.service5 p{
+    color: $color-letras-negro;
+    font-size: 20px;
+}
+.service6 h3{
+    font-size: 25px;
+}
+.service6 p{
+    color: $color-letras-negro;
+    font-size: 20px;
 }
 
 
