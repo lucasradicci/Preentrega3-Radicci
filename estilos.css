@@ -94,4 +94,13 @@ main h1 {
   background-color: rgb(132, 132, 230);
 }
 
+h2 {
+  text-align: center;
+  color: rgb(89, 89, 192);
+}
+
+h3 {
+  color: rgb(230, 174, 71);
+}
+
 /*# sourceMappingURL=estilos.css.map */
