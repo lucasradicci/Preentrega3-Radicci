@@ -1,106 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
+/* Error: Undefined variable.
+ *     ,
+ * 101 |     color: $color-fondo-contactopara;
+ *     |            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ *     '
+ *   estilos.scss 101:12  root stylesheet */
 
-header {
-  background-color: black;
-  padding: 50px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a     \2577 \a 101 \2502      color: $color-fondo-contactopara;\d\a     \2502             ^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   estilos.scss 101:12  root stylesheet";
 }
-
-.logo {
-  color: white;
-  font-size: 20px;
-}
-
-nav.barra {
-  float: right;
-  background-color: black;
-}
-
-ul li {
-  color: #f38a8a;
-}
-
-.nav-item {
-  margin-left: 5px;
-  color: #f38a8a;
-  font-size: 20px;
-}
-
-.nav-item:hover {
-  color: blue;
-}
-
-main {
-  background-color: beige;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding: 20px;
-}
-
-.icono-texto {
-  background-color: black;
-  display: flex;
-  margin: 0px;
-  padding: 10px;
-  font-size: 20px;
-}
-
-.icono-texto a {
-  text-decoration: none;
-  color: red;
-}
-
-.texto1, .texto2, .texto3 {
-  display: flex;
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-footer p {
-  font-size: 20px;
-}
-
-.redes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-.redes a {
-  color: blue;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 30px;
-  margin-left: 30px;
-}
-
-.redes a:hover {
-  color: blueviolet;
-}
-
-main h1 {
-  color: rgb(197, 69, 69);
-}
-
-.btn {
-  background-color: rgb(132, 132, 230);
-}
-
-h2 {
-  text-align: center;
-  color: rgb(89, 89, 192);
-}
-
-h3 {
-  color: rgb(230, 174, 71);
-}
-
-/*# sourceMappingURL=estilos.css.map */
