@@ -66,6 +66,7 @@ footer {
 }
 
 footer p {
+  color: rgb(89, 89, 192);
   font-size: 20px;
 }
 
@@ -163,6 +164,18 @@ main h3 {
 .service6 p {
   color: rgb(70, 66, 66);
   font-size: 20px;
+}
+
+ul li {
+  color: #f38a8a;
+}
+
+li i {
+  color: white;
+}
+
+footer h2 {
+  color: rgb(230, 174, 71);
 }
 
 /*# sourceMappingURL=estilos.css.map */
