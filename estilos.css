@@ -38,10 +38,6 @@ main {
   background-color: beige;
 }
 
-.imagen {
-  margin: auto;
-}
-
 footer {
   background-color: black;
   color: white;
@@ -88,6 +84,14 @@ footer p {
 
 .redes a:hover {
   color: blueviolet;
+}
+
+main h1 {
+  color: rgb(197, 69, 69);
+}
+
+.btn {
+  background-color: rgb(132, 132, 230);
 }
 
 /*# sourceMappingURL=estilos.css.map */
